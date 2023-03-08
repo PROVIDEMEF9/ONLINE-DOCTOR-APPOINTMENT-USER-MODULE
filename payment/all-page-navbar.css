@@ -1,0 +1,67 @@
+.blue_btn{
+    background-color: rgb(14, 75, 119);
+ }
+
+ @media(max-width:992px){
+     .margin-up{
+     margin-top: 0px;
+ } 
+ }
+ .login-dropdown-123{
+/* margin: 0px -51px; */
+margin-top: 0px;
+margin-left: -51px;
+
+}
+ .flex-end-2222{
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+ }
+.bk_nav{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .flex-for-login-page{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.flex-column-for-login-page{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+#navbar-list-4 ul li a:hover{
+ background-color: transparent;
+     color: rgb(14, 75, 119) !important;
+     text-decoration: underline;
+     font-size: 25px;
+}
+#navbar-list-4 ul li a:nth-child(0):not(:hover){
+color:black;
+font-size: 18px;
+}
+/* #navbar-list-4 ul li a:nth-child(3):not(:hover){
+color:black;
+} */
+.active_update{
+     background-color: transparent;
+     color: rgb(14, 75, 119) !important;
+     text-decoration: underline;
+     font-size: 25px;
+ }
+@media(max-width:574px){
+ .login-dropdown-123{
+/* margin: 0px -51px; */
+margin-top: 0px;
+/* margin-left: -51px; */
+}
+.flex-end-2222{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+}
