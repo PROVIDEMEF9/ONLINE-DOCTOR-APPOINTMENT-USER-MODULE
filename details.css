@@ -1,0 +1,26 @@
+/* #body1{
+    background-image:url('medical.jpeg') ;
+    background-repeat: no-repeat;
+    background-size:80%;
+    /* background-position: center; 
+   
+} */
+.card{
+         background:rgb(228, 223, 223);
+        border-radius: 20px;
+    
+}
+.card-text  img{
+    width: 30vh;
+}
+.card-text u{
+    text-align: center;
+}
+p{
+    font-weight: 600;
+}
+.flex-for-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

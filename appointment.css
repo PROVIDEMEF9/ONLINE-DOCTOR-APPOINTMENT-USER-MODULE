@@ -1,0 +1,39 @@
+body{
+    background-image:url('medical.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.card{
+    /* background:rgb(228, 223, 223); */
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.form-group input[type=text],[type=email]{
+    padding: 2px 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px dashed black;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    /* background-color: rgb(228, 223, 223); */
+    background-color: transparent;
+}
+.input-group input[type=text]{
+    padding: 2px 20px;
+    width: 60%;
+    border: none;
+    border-bottom: 1px dashed black;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    background-color:rgb(228, 223, 223);
+    background-color: transparent;
+}
+.justify-center-appo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

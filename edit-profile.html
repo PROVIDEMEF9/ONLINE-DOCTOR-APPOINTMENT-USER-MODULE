@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <title>Document</title>
+    <style>
+        .flex-form{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+       <div class="row">
+        <div class="col-6 bg-light mx-auto">
+            <form class="row g-3" id="extra-info-form">
+
+                <div class="row mt-5">
+                    <label for="name" class="col-sm-2 col-form-label">Name</label>
+                    <div class="col-sm-10">
+                      <input type="text" readonly class="form-control" id="name" name="name" value="Subhankar Nath">
+                    </div>
+                  </div>
+    
+                  <div class="col-md-12 flex-form">
+                    <label for="gender" class="col-sm-2 col-form-label">Gender</label>
+                  <div class="form-check ">
+                       <input class="form-check-input" type="radio" checked name="inlineRadioOptions" id="male" >
+                       <label class="form-check-label" name="gender" for="male">Male</label>
+                   </div> 
+                   <div class="form-check">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="female">
+                    <label class="form-check-label" name="gender" for="female">Female</label>
+                </div>
+                  </div>
+    
+    
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" readonly name="email" value="TECHcare_admin007@gmail.com" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Password</label>
+                  <input type="password" readonly name="password" value="123456" class="form-control" id="inputPassword4">
+                </div>
+    
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input type="text" class="form-control" name="primary_address" id="inputAddress" placeholder="1234 Main St">
+                </div>
+    
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Address 2</label>
+                  <input type="text" class="form-control" name="sec_address" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+    
+                <div class="col-md-4">
+                  <label for="inputCity" class="form-label">City</label>
+                  <input type="text" class="form-control" value="" name="city" id="inputCity" placeholder="Kankinara">
+                </div>
+    
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" name="state" class="form-select">
+                    <option selected>...Choose...</option>
+                    <option>West Bengal</option>
+                  </select>
+                </div>
+    
+                <div class="col-md-4">
+                  <label for="inputZip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" value="" name="pincode" id="inputZip" placeholder="ex-743129">
+                </div>
+    
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      TECHcare collect personal details from you.are yor agree?
+                    </label>
+                  </div>
+                </div>
+    
+    
+                <div class="col-12 mt-5">
+                  <button type="button" class="btn btn-success" id="update">update</button>
+                </div>
+    
+              </form>
+    
+        </div>
+       </div>
+
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" ></script>
+<script>
+  $(document).ready(function(){
+    $('#update').click(function(){
+      swal("Good job!", "You clicked the button!", "success");
+    });
+  });
+</script>
+    
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+<style>
+    .flex-for-login-page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .flex-column-for-login-page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+   
+    .login-dropdown-123{
+      margin: 0px -51px;
+    }
+    .bk_nav{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+.off{
+  display: none;
+}
+
+.noti{
+  width: 320px;
+  height: 220px !important;
+  padding: 5px;
+  overflow-y: scroll;
+  position: absolute;
+  margin-left: -180px;
+  border-radius: 5px;
+}
+.success_a{
+  text-decoration: none;
+
+}
+.flex-for-noti{
+  display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.noti::-webkit-scrollbar {
+  display: none;
+}
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-light navbar-expand-sm">
+    <a class="navbar-brand bk_nav px-4" href="#">
+      <img src="unnamed.webp" alt="" width="60" height="48" class="d-inline-block align-text-top">
+      <h3 class="text-info">TECH<span>care</span></h3>
+  </a>
+<button class="navbar-toggler bg-danger border border-light" type="button" data-toggle="collapse" data-target="#navbar-list-4" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon text-dark"></span>
+</button>
+    <div class="collapse navbar-collapse " id="navbar-list-4">
+              <ul class="navbar-nav flex mx-5 ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-dark active_update text-info" aria-current="page" href="#">Home</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                  </a>
+                  <ul class="dropdown-menu text-dark" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Regular checkup</a></li>
+                    <li><a class="dropdown-item" href="#">Appoinment booking</a></li>
+                    <li><a class="dropdown-item" href="#">Health issue</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Contact Us</a>
+                </li>
+        <li class="nav-item dropdown ml-2 mr-2">
+          <button class=" border border-white" id="star"><i class="fa-regular fa-bell"></i></button>
+              <div class="box-24  off bg-light noti">
+                <h5 class="text-center text-success">NOTIFICATION</h5>
+                <hr class="mt-2 mb-1">
+                <!-- ---------------1------------------------- -->
+                <div class="bg-warning p-3 mt-2 mb-2">
+                  
+                  <div class="flex text-light">
+                    <i class="fa-solid fa-triangle-exclamation mx-3" style="font-size: 35px;color:rgb(246, 95, 8);"></i>
+                      Appoinment Not Found.
+                  </div>
+                </div>
+
+              <!-- ---------------2------------------------- -->
+                <div class="bg-success p-3 mt-2 mb-2">
+                  <h6 class="text-center text-light">Appoinment Successfully Booked.</h6>
+                  <hr class="mt-1 mb-1">
+                  <div class="flex-for-noti bg-success text-light">
+                    <div class="flex text-light">
+                      <i class="fa-regular fa-circle-check mx-3" style="font-size: 35px;color:yellow;"></i>
+                      Subhankar Nath
+                    </div>
+                    11:20Am
+                  </div>
+                </div>
+
+                <!-- ---------------3------------------------ -->
+                <div class="bg-danger p-3 mt-2 mb-2">
+                  <h6 class="text-center text-light">Appoinment Cancellation Success.</h6>
+                  <hr class="mt-1 mb-1">
+                  <div class="flex-for-noti text-light">
+                    <div class="flex text-light">
+                      <i class="fa-regular fa-circle-xmark mx-3" style="font-size: 35px;color:rgb(255, 255, 254);"></i>
+                      Subhankar Nath
+                    </div>
+                    11:20Am
+                  </div>
+                </div>
+                
+              </div>
+        </li>
+              <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="user_3.png" width="40" height="40" class="rounded-circle">
+                    <!-- https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/fox.jpg -->
+                  </a>
+                  <div class="dropdown-menu login-dropdown-123 text-dark" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="a pt-3 flex-column-for-login-page">
+                      <img src="user_3.png" alt="" width="40" height="40" class="rounded-circle">
+                      <h6 class="text-info text-center mt-2">Subhankar</h6>
+                    </div>
+                    <hr class="mt-1 mb-1">
+                    <a class="dropdown-item flex-for-login-page text-dark" href="edit-profile.html" target="_blank">Edit Profile <i class="mx-2 fa-solid fa-user-pen"></i></a>
+                    <a class="dropdown-item flex-for-login-page text-dark" href="logout.php">Log Out <i class="mx-2 fa-solid fa-arrow-right-from-bracket"></i></a>
+                  </div>
+                </li>   
+              </ul>
+    </div>
+</nav>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#star').click(function(){
+      $('.noti').toggleClass('off');
+    });
+  });
+</script>
+</body>
+
+
+
+
+</html>
+
