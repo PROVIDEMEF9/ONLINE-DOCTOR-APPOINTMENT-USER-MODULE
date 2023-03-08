@@ -113,8 +113,8 @@ class Database{
             if($this->object->query($insert)){
                 // echo "<br>";
                 array_push($this->result,$this->object->insert_id);
-                return $this->result; 
                 // echo "<script> alert('1 row inserted.') </script>";
+                return $this->result;
                 // echo "<br>"."          1 row inserted      "."<br>";
             }
             else{
@@ -210,9 +210,9 @@ class Database{
         if($this->conn){
             
             if($this->object->close()){
-                //echo '<br>';
-                //echo " end call";
-                //echo " connection end";
+                echo '<br>';
+                echo " end call";
+                echo " connection end";
                 $this->conn=false;
                 return true;
             }else{
