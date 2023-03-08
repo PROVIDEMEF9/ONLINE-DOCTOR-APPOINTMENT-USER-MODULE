@@ -1,0 +1,44 @@
+h2{
+    /* margin: auto; */
+    font-weight: 600;
+ }
+ /* form{
+    margin-top: 10px;
+    width: auto;
+ }
+ input{
+    border: none;
+    border-bottom:1px solid black;
+    width: 75%;
+    font-size: 15px;
+    padding: 5px;
+    /* margin: 3px; 
+   
+ } */
+ .center-login{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.right{
+   display: flex;
+   align-items: center;
+   justify-content: flex-end;
+}
+.modal-content-login{
+   border-radius: 20px;
+}
+ .modal-body-login{
+  /* background-image: url(back_photo_4.jpeg);  */
+  background: linear-gradient( to right, transparent, rgba(253, 253, 253,2) ),url(back_photo_4.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+ }
+ /* .form-group a{
+    text-decoration: none;
+    color: black;
+ } */
+ p{
+    text-align: center;
+ }

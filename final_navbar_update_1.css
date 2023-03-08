@@ -1,0 +1,97 @@
+*{
+    font-family: 'Titillium Web', sans-serif;
+  }
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-brand a img,h3{
+    margin-left: 10px;
+  }
+  .links li{
+    margin: 0 1vw;
+    /* background-color: red; */
+    list-style: none;
+   
+  }
+  .links li a{
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+    border-radius: 20px;
+    font-size: 18px;
+  }
+  .links li a:hover,.active{
+    background-color: #1A6793;
+    color: white;
+  }
+  .login{
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  span{
+    font-size: 18px;
+  }
+  .cross,.dropdown{
+    display: none;
+  }
+  .service:hover .dropdown{
+    background-color:white;
+    position: absolute;
+    top:47px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    
+  }
+  .dropdown a{
+    border-bottom: 2px solid rgb(253, 248, 248);
+    margin-top: 3px;
+  }
+  @media(max-width:1010px){
+    /* #links{
+      display: none;
+    } */
+    .cross{
+      display: block;
+    }
+    .off{
+      display: none;
+    }
+    .link1{
+      display: block;
+      position: absolute;
+      width: 100%;
+      top:70px;
+      left: 0;
+    }
+    .links{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .links li{
+      margin-top: 15px;
+    }
+    .dropdown{
+      display: none;
+    }
+    .service:hover .dropdown{
+    background-color:rgb(188, 179, 179);
+    /* display: block; */
+    position: relative;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 3px;
+
+  
+    
+  }
+ 
+  }

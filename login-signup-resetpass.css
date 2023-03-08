@@ -1,0 +1,59 @@
+/* .back{
+            background-image: url(back_photo_4.jpeg);
+            background-position: center;
+            background-size: 70%;
+            background-repeat: no-repeat;
+        }
+        .transparent{
+            background-color: linear-gradient(transparent,0.2);
+        } */
+.center-login{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.right{
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+.modal-content-login{
+            border-radius: 20px;
+         }
+.modal-body-login{
+           /* background-image: url(back_photo_4.jpeg);  */
+           background: linear-gradient( to right, transparent, rgba(253, 253, 253,2) ),url(back_photo_4.jpeg);
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: 50%;
+          }
+                
+.off{
+            display: none;
+         }
+.card-header{
+            border-color:white;
+            background-color: white;
+            border-top-left-radius:50px ;
+         }
+.center{
+            display: grid;
+            place-items: center;
+         }
+.fff{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+.center-column{
+     display: flex;
+    align-items: center;
+justify-content: center;
+ flex-direction: column;
+         }
+.none1{
+    display: none;
+}
+         /* #change-password{
+             display: none;
+         } */
